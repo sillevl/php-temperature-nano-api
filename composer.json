@@ -1,0 +1,17 @@
+{
+    "name": "sillevl/php-temperature-nano-api",
+    "description": "Nano temperature API using OpenWeatherMap",
+    "require": {
+        "slim/slim": "^3.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sille Van Landschoot",
+            "email": "info@sillevl.be"
+        }
+    ],
+    "autoload": {
+       "psr-4": {"Sillevl\\": "lib/"}
+   }
+}
